@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee Spice');
+
+body{
+    background-image: url(Image/Bg-Mario.jpg);
+    background-size: cover;
+    font-family: "Bungee Spice", sans-serif;
+    text-align: center;
+}
+
+#board{
+    width: 540px;
+    height: 540px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(Image/soil.png);
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+#board div{
+    width: 180px;
+    height: 180px;
+    background-image:url(Image/pipe.png);
+    background-size: cover;
+}
+
+#board div img {
+    width: 140px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
